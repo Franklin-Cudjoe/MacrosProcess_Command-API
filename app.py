@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 # File paths
-command_file_path = "mnt\data\Command.csv" 
-processes_file_path = "mnt\data\Processes.csv"
+command_file_path = "mnt/data/Command.csv" 
+processes_file_path = "mnt/data/Processes.csv"
 
 @app.route('/fetch_file', methods=['GET'])
 def fetch_file():
